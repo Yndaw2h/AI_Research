@@ -35,5 +35,5 @@ class DatasetInfo:
     train_images: int = 126
     val_images: int = 15
     test_images: int = 17
-    class_distribution: dict = {0: 'paper', 1: 'mouse', 2: 'pen', 3: 'cup', 4: 'headphones', 5: 'remote', 6: 'background'}
-    class_names: list = 'paper', 'mouse', 'pen', 'cup', 'headphones', 'remote', 'background'
+    class_distribution: dict = {0: 'label1', 1: 'label2', 2: 'label3', 3: 'label4', 4: 'label5', 5: 'label6', 6: 'label7'}
+    class_names: list = 'label1', 'label2', 'label3', 'lanel4', 'label5', 'label6', 'label7'
